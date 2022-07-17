@@ -11,7 +11,7 @@ fn main() {
     for number in numbers {
         min = if min > number { number } else { min };
         max = if max < number { number } else { max };
-        mean += number as f64
+        mean += number as f64;
     }
 
     mean /= numbers.len() as f64;
